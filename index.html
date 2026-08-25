@@ -47,11 +47,11 @@
 
                     <!-- navigation menu -->
                     <div class="nav-menu">
-                        <a href="#" class="nav-link">
+                        <a href="#home" class="nav-link">
                             Home
                         </a>
 
-                        <a href="#" class="nav-link">
+                        <a href="#about" class="nav-link">
                             About
                         </a>
 
@@ -61,13 +61,13 @@
                                 property <span class="arrow">⌄</span>
                             </button>
                             <div class="dropdown-menu">
-                                <a href="#">Buy Property</a>
-                                <a href="#">Rent Property</a>
+                                <a href="#latest-listing">Buy Property</a>
+                                <a href="#latest-rent">Rent Property</a>
                                 <a href="#">Property Details</a>
                                 <a href="#">Property Agents</a>
                             </div>
                         </div>
-                        <a href="#" class="nav-link">
+                        <a href="#galery" class="nav-link">
                             Gallery
                         </a>
 
@@ -78,8 +78,8 @@
                             </button>
                             <div class="dropdown-menu">
                                 <a href="#">Services</a>
-                                <a href="#">Our Team</a>
-                                <a href="#">Testimonials</a>
+                                <a href="#team">Our Team</a>
+                                <a href="#testimonial">Testimonials</a>
                                 <a href="#">FAQ</a>
                             </div>
                         </div>
@@ -90,12 +90,12 @@
                                 Blogs <span class="arrow">⌄</span>
                             </button>
                             <div class="dropdown-menu">
-                                <a href="#">Blog Grid</a>
+                                <a href="#blog">Blog Grid</a>
                                 <a href="#">Blog Details</a>
                             </div>
                         </div>
 
-                        <a href="#" class="nav-link">
+                        <a href="#contact" class="nav-link">
                             Contact
                         </a>
                     </div>
@@ -103,7 +103,7 @@
             </nav>
         </header>
 
-        <div class="hero-content">
+        <div class="hero-content" id="home">
             <h1>Best Real Estate Deals</h1>
 
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt numquam et nisi ratione facilis voluptate
@@ -202,7 +202,7 @@
         </div>
     </section>
     <!--  property section  -->
-    <section class="property-section bg-[#dceef4] py-12 sm:py-16">
+    <section class="property-section bg-[#dceef4] py-12 sm:py-16" id="latest-listing">
         <div class="w-full max-w-5xl mx-auto px-5 sm:px-8">
             <!--  LATEST LISTING  -->
             <div class="mb-20">
@@ -298,7 +298,7 @@
             </div>
 
             <!--  LATEST FOR RENT  -->
-            <div>
+            <div id="latest-rent">
                 <!-- Heading -->
                 <div class="text-center mb-8">
                     <h2 class="text-2xl sm:text-3xl font-medium text-[#1e425c]">
@@ -391,7 +391,7 @@
         </div>
     </section>
     <!-- gallery section -->
-    <section class="gallery-section">
+    <section class="gallery-section" id="gallery">
         <!-- heading -->
         <div class="gallery-content px-5">
             <div class="text-center mb-10">
@@ -456,7 +456,7 @@
         </div>
     </section>
     <!-- professional team -->
-    <section class="team-section bg-[#dceef4] py-16">
+    <section class="team-section bg-[#dceef4] py-16" id="team">
         <!-- heading -->
         <div class="text-center">
             <h2 class="text-[#1e425c] text-3xl md:text-4xl font-medium">Professional Team</h2>
@@ -539,7 +539,7 @@
         </div>
     </section>
     <!-- testimonial -->
-    <section class="testimonial-section relative w-full overflow-hidden">
+    <section class="testimonial-section relative w-full overflow-hidden" id="testimonial">
 
         <!-- Hidden radio buttons -->
         <input type="radio" name="testimonial" id="testimonial-1" checked>
@@ -691,7 +691,7 @@
         </div>
     </section>
     <!-- latest news -->
-    <section class="latest-news-section w-full bg-white">
+    <section class="latest-news-section w-full bg-white" id="blog">
         <!-- new heading -->
         <div class="text-center">
             <h2 class="text-[#1e425c] text-3xl sm:text-4xl font-medium">Latest News</h2>
@@ -759,7 +759,7 @@
         </div>
     </section>
     <!-- footer -->
-    <footer class="footer-section relative">
+    <footer class="footer-section relative" id="contact">
         <div class="footer-wave">
             <svg viewBox="0 0 1440 220" preserveAspectRatio="none">
                 <path d="
